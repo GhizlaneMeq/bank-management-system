@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>ma.hmzelidrissi</groupId>
+    <groupId>ma.youcode</groupId>
     <artifactId>bank-management-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bank-management-system</name>
