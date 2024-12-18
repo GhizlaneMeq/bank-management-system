@@ -5,8 +5,8 @@ services:
     image: postgres:17-alpine
     container_name: banking-db
     environment:
-      - POSTGRES_USER=hamza
-      - POSTGRES_PASSWORD=hamza
+      - POSTGRES_USER=ghizlane
+      - POSTGRES_PASSWORD=ghizlane
       - POSTGRES_DB=banking_db
       - PGDATA=/var/lib/postgresql/data/pgdata
     ports:
@@ -16,7 +16,7 @@ services:
     networks:
       - banking-network
     healthcheck:
-      test: [ "CMD", "pg_isready", "-U", "hamza" ]
+      test: [ "CMD", "pg_isready", "-U", "ghizlane" ]
       interval: 30s
       timeout: 10s
       retries: 5
